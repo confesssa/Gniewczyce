@@ -4,7 +4,6 @@
   padding: 0;
   font-family: 'Linux Libertine','Georgia','Times',serif;
   font-size: 10px;
-  background: rosybrown;
 }
 
 body {
@@ -12,9 +11,14 @@ body {
   justify-content: center;
 }
 
+.wrapper {
+  width: 85%;
+}
+
 .header {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  background-image: url(./assets/Gniewczyce.png);
+  background-size: cover;
+  height: 355px;
 }
 
 .header * {
@@ -24,15 +28,19 @@ body {
 .header-list {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
+  padding-top: 30px;
+  margin-bottom: 30px;
 }
 
 .header-item {
   list-style: none;
 }
 
-.wrapper {
-  width: 85%;
+.section {
+  margin-top: 50px;
+  margin-bottom: 20px;
+
 }
 
 section * {
@@ -48,4 +56,31 @@ section * {
 }
 
 .section-text {
+}
+
+/* MONUMENT */
+.monument-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.monument-image {
+
+}
+
+.image-description {
+  text-align: center;
+  font-size: 1rem;
+}
+
+.monument-text {
+  margin-left: 25px;
+}
+
+.monument-image img {
+  width: 100%;
+}
+
+.monument-picture-container img {
+  height: 250px;
 }
