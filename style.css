@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Linux Libertine','Georgia','Times',serif;
+  font-family: 'Linux Libertine','Georgia','Times',sans-serif;
   font-size: 10px;
 }
 
@@ -66,6 +66,11 @@ section * {
   margin-bottom: 15px;
 }
 
+.section-explanation {
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
 .list-item {
   margin-bottom: 15px;
 }
@@ -82,7 +87,7 @@ section * {
 
 .image-description {
   text-align: center;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 .monument-text {
@@ -95,4 +100,9 @@ section * {
 
 .monument-picture-container img {
   height: 250px;
+}
+
+/* CHURCH */
+.church > * {
+  margin-bottom: 90px;
 }
