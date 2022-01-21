@@ -15,6 +15,11 @@ body {
   width: 85%;
 }
 
+.big-picture {
+  width: 100%;
+}
+
+/* HEADER */
 .header {
   background-image: url(./assets/Gniewczyce.png);
   background-size: cover;
