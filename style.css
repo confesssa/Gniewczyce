@@ -19,6 +19,10 @@ body {
   width: 100%;
 }
 
+.middle-picture {
+  max-width: 100%;
+}
+
 /* HEADER */
 .header {
   background-image: url(./assets/Gniewczyce.png);
@@ -43,6 +47,7 @@ body {
 .header-list {
   background: rgba(255,255,255, 0.6);
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-around;
   padding-top: 30px;
@@ -51,6 +56,7 @@ body {
 
 .header-item {
   list-style: none;
+  padding: 0 10px 15px;
 }
 
 .section {
@@ -127,4 +133,11 @@ section * {
 
 .metrics > * {
   margin-bottom: 50px;
+}
+
+@media (max-width: 600px) {
+  .header-list {
+    flex-direction: column;
+    justify-content: left;
+  }
 }
