@@ -55,11 +55,21 @@ body a {
 .header-list {
   background: rgba(255,255,255, 0.6);
   display: flex;
-  flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-around;
   padding-top: 30px;
   margin-bottom: 30px;
+}
+
+.header-list > * {
+  width: 50%;
+}
+
+.left-column {
+  text-align: right;
+}
+
+.right-column {
+  text-align: left;
 }
 
 .header-item {
@@ -162,7 +172,16 @@ section * {
 @media (max-width: 600px) {
   .header-list {
     flex-direction: column;
-    justify-content: left;
+    justify-content: center;
+  }
+
+  .header-list > * {
+    text-align: center;
+    width: 100%;
+  }
+
+  .small-picture {
+    width: 100%;
   }
 
   .monument-picture-container {
