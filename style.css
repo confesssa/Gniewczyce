@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Linux Libertine','Georgia','Times',sans-serif;
+  font-family: 'Linux Libertine', 'Georgia', 'Times', sans-serif;
   font-size: 10px;
 }
 
@@ -53,7 +53,7 @@ body a {
 }
 
 .header-list {
-  background: rgba(255,255,255, 0.6);
+  background: rgba(255, 255, 255, 0.6);
   display: flex;
   flex-direction: row;
   padding-top: 30px;
@@ -99,7 +99,7 @@ section * {
 
 .section-text {
   margin-bottom: 15px;
-  text-align: justify;
+  /* text-align: justify; */
   text-align-last: left;
 }
 
@@ -163,9 +163,22 @@ section * {
   margin: 30px;
 }
 
+/* USED-LINKS */
+.used-links * {
+  line-height: 1;
+}
+
+.used-links .section-text {
+  margin-bottom: 25px;
+}
+
 @media (max-width: 900px) {
   .monument-container {
     flex-direction: column;
+  }
+
+  .monument-text {
+    margin-left: 0;
   }
 }
 
