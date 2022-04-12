@@ -15,6 +15,11 @@ body a {
   color: black;
 }
 
+ul,
+ol {
+  list-style-position: inside;
+}
+
 .wrapper {
   width: 85%;
 }
@@ -102,6 +107,10 @@ section * {
   margin-bottom: 15px;
 }
 
+.list-item:not(:last-child) {
+  margin-bottom: 60px;
+}
+
 .section-explanation {
   font-size: 1.5rem;
   font-style: italic;
@@ -151,15 +160,16 @@ section * {
   margin-bottom: 90px;
 }
 
-.metrics > * {
-  margin-bottom: 50px;
-}
-
 /* FACTS */
 .central-image {
   display: flex;
   justify-content: center;
-  margin: 30px 0;
+  margin: 20px 0;
+}
+
+/* HELP */
+.help * {
+  line-height: 1.2;
 }
 
 /* USED-LINKS */
@@ -174,6 +184,10 @@ section * {
 @media (max-width: 900px) {
   .monument-container {
     flex-direction: column;
+  }
+
+  .monument-image {
+    margin-bottom: 40px;
   }
 
   .monument-text {
