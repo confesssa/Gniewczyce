@@ -160,6 +160,14 @@ section * {
   margin-bottom: 90px;
 }
 
+.ortodox {
+  margin-top: 20px;
+}
+
+.no-information .list-item {
+  margin-bottom: 10px;
+}
+
 /* FACTS */
 .central-image {
   display: flex;
